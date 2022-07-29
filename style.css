@@ -1,0 +1,12 @@
+.cover-img{
+    filter: brightness(50%);
+}
+.course img{
+    height: 170px;
+    width: 170px;
+
+}
+.institute-about{
+    background-color:  #F4FAFD;
+   
+}
