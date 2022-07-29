@@ -7,31 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-      .course img{
-        height: 150px;
-    width: 200px;
-      }
-
-      @media screen and (max-width:576px) {
-        .course img{
-          width:450px;
-          height: 300px;
-
-        }
-
-        
-      }
-      
-    </style>
+   
     
 </head>
 <body>
     <header class="container">
         <!-- nav bar start -->
-        <nav class="navbar navbar-expand-lg bg-secondary">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-              <a class="navbar-brand fw-bolder fs-2 text-secondary" href="#">Pro Edu</a>
+              <a class="navbar-brand fw-bolder fs-2 text-secondary" href="#">Coder Bd</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -43,7 +27,7 @@
                   </li>
                   
                   <li class="nav-item ms-4">
-                    <a class="nav-link" href="#">Courses</a>
+                    <a class="nav-link" href="#course">Courses</a>
                   </li>
 
                   <li class="nav-item ms-4">
@@ -55,11 +39,11 @@
                   </li>
 
                   <li class="nav-item ms-4">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                   </li>
 
                   <li class="nav-item ms-4">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="#register">Register</a>
                   </li>
 
                 </ul>
@@ -130,7 +114,7 @@
     </header>
     <main>
         <!-- course title start-->
-        <section class="d-flex my-5">
+        <section  class="d-flex my-5">
             <div class="text-center m-auto " >
                 <h2 class=" fw-bold w-50 m-auto">Discover Our Popular Courses</h2>
                     <p class=" w-75 m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
@@ -139,7 +123,7 @@
 
         </section>
         <!-- course  -->
-        <section class="container">
+        <section  id="course" class="container">
           <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-2">
               <div class="col-lg-6 col-md-12  ">
                   <div class="d-flex flex-row flex-column flex-sm-row align-items-center justify-content-center border border-start-0 rounded">
@@ -224,7 +208,7 @@
           
       </section>
       <!-- course rating and information start -->
-      <section class="container">
+      <section  id="about" class="container">
         <div class="row g-0">
           <div class=" col-md-6 col-sm-12 ">
             <div>
@@ -266,7 +250,7 @@
 
 
       </section>
-      <section class="container my-4">
+      <section id="register" class="container my-4">
         <div class="d-flex flex-column flex-lg-row  justify-content-around align-items-center bg-info py-5 rounded ">
           <div class="p-4">
             <h2 class=" text-center text-lg-start">Ready to join?</h2>
@@ -364,7 +348,7 @@
 </section>
    
     <!-- accordion end -->
-    <!-- company name start-->
+    <!-- company banner start-->
     <section class="container my-5">
       <div class=" d-lg-block d-none">
           <h1 class="text-center">Trusted by over 800+ companies</h1>
@@ -381,8 +365,24 @@
       </div>
   
     
-    <!-- company name start-->
+    <!-- company banner end-->
    </main>
+   <!-- footer start -->
+   <footer class="bg-dark ">
+    <div class="d-flex flex-column mx-auto text-center py-5">
+      <h1 class="text-white">Coder Bd</h1>
+     <small class="text-white">Office 41, Zawaya Buildin, Ghala Muscat,<br> Sultanate of Oman</small>
+     <p>
+      <a class="text-decoration-none text-white fs-6" href="#">Privacy Ploicy </a>|
+      <a class="text-decoration-none text-white fs-6" href="#">Terms of use</a>
+     </p>
+     
+    
+
+    </div>
+
+   </footer>
+    <!-- footer end -->
    
     <script src="bootstrap/bootstrap.min.js"></script>
 </body>
